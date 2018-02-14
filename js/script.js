@@ -1,9 +1,3 @@
-// adding textbox
-//var x = document.getElementById("myTextarea");
-<textarea rows="4" cols="50">
-  Please adding value for plotting IoT diagram... 
-</textarea>
-
 
 // Event handling
 document.addEventListener("DOMContentLoaded",
