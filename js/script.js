@@ -1,3 +1,6 @@
+// adding textbox
+var x = document.getElementById("myTextarea");
+
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
