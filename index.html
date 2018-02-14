@@ -12,13 +12,13 @@
 
 <textarea id="txta" cols=10 rows=5>
   value 
+</textarea>  
   <script type="text/javascript">
    var txt;
    txt = document.getElementById('txta').value; //获取textarea的值
   document.write (txt);
    document.getElementById('txta').value = "txt2";  //设置textarea的值
 </script>
-</textarea>
 <form>
       <input type="button" value="value show" onclick=document.getElementById('txta').value/>
 </form>    
