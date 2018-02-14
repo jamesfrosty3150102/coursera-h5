@@ -4,12 +4,3 @@
   "likesChineseFood": true,
   "numberOfDisplays": 2 
 }
-
-// arbitrary js object:
-var myJsObj = {a:'foo', 'b':'bar', c:[false,2,null, 'null']};
-
-// using JSON.stringify pretty print capability:
-var str = JSON.stringify(myJsObj, undefined, 4);
-
-// display pretty printed object in text area:
-document.getElementById('myTextArea').innerHTML = str;
