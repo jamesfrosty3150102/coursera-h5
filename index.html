@@ -10,9 +10,17 @@
   
   <p>
 
-<textarea id="myTextArea" cols=50 rows=10>
+<textarea id="myTextArea" cols=5 rows=5>
   Please adding value for plotting IoT diagram... 
 </textarea>
+    
+<textarea id="txta">test</textarea>
+<script type="text/javascript">
+   var txt;
+   txt = document.getElementById('txta').value; //获取textarea的值
+  document.write (txt);
+   document.getElementById('txta').value = "txt2";  //设置textarea的值
+</script>
     
 <form>
 <input type="button" value="Sending thingspeak" onclick="window.location.href='http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1=25.5'" />
