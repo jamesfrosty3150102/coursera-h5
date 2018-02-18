@@ -18,7 +18,15 @@
         //window.setTimeout("ShowTime();", 5000);  
     } 
   
-</script>    
+</script>   
+  
+  <script type="text/javascript">
+function getValue()
+  {
+  var x=document.getElementById("myHeader")
+  alert(x.innerHTML)
+  }
+</script>
      
    
       <h1 id="title">Sending IoT Data</h1>  
@@ -28,7 +36,11 @@
 <form>
        <input type="button" value="value" id="myHeader" onclick=ShowTime(); />
 </form>   
-        
+
+<h1 id="myHeader" onclick="getValue()">This is a header</h1>
+<p>Click on the header to alert its value</p>  
+  
+  
 </body>     
     
     
