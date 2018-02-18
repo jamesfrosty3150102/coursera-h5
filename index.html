@@ -7,22 +7,19 @@
  <script type="text/javascript">
   
   
-    function ShowTime()  
+    function ShowTime(x)  
     {  
         var dt = new Date(); 
         var x=document.getElementById("txta");
+        var elem = document.getElementById("myHeader");  
+        document.write(elem);
         document.write("vernon mickle");
         document.write(dt.toTimeString());          
-        var elem = document.getElementById("divElem");  
+
         // elem.textContent = dt.toTimeString();          
         //window.setTimeout("ShowTime();", 5000);  
     } 
   
-    function id(x) 
-   {
-        if (typeof x == "string") return document.getElementById(x);
-     return x;
-   }
 
  </script>     
    
