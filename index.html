@@ -17,6 +17,7 @@
     {
         var fname = $("#txtfirstname").val();
         $("#lblfirstname").html(fname);
+        document.getElementById( 'lblfirstname' ).value = 'Yes';
     }
   </script>
 
@@ -26,7 +27,7 @@
       what is your temp?<br />
        <input type ="text" id="txtfirstname" /><br />
       your temp : <label id ="lblfirstname"><br />
-       <a href="window.location.href='http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1=lblfirstname">
+       <a href="window.location.href='http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1=#lblfirstname">
        <input type="button" value="submit data" onclick="showData();"/><br />
     
        
