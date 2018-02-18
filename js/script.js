@@ -1,3 +1,12 @@
+//get value
+     <script>
+        function showData()
+    {
+        var fname = $("#txtfirstname").val();
+        $("#lblfirstname").html(fname);
+    }
+  </script>
+
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
