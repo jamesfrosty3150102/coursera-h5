@@ -22,3 +22,10 @@ document.addEventListener("DOMContentLoaded",
   }
 );
 
+// taking value test
+  <script type="text/javascript">
+   var txt;
+   txt = document.getElementById('txta').value; //获取textarea的值
+  document.write (txt);
+   document.getElementById('txta').value = "txt2";  //设置textarea的值
+</script>
