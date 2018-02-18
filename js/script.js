@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("data/name.json", 
             function (res) {
               var message = 
-                res.firstName + " " + res.lastName
+                res.firstName + res.lastName
               
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
