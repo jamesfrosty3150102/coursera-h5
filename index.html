@@ -7,6 +7,8 @@
     {
         var fname = $("#txtfirstname").val();
         $("#lblfirstname").html(fname);  
+        var str = "Free Web Building Tutorials!";
+        var result = str.link("https://www.w3schools.com");
     }
   </script>
   </head>
@@ -16,8 +18,9 @@
        what is your name?<br />
        <input type ="text" id="txtfirstname" /><br />
       your name : <label id ="lblfirstname"><br />
+       
        <input type="button" value="submit data" onclick="showData();" /><br />   
-      my name : <label id ="lblfirstname"><br />
+       
   </div>
        
        
