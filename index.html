@@ -11,9 +11,10 @@
         document.write(dt.toTimeString());  
         // var elem = document.getElementById("divElem");  
         // elem.textContent = dt.toTimeString(); 
-        document.write(value);    
-        window.setTimeout("ShowTime();", 5000);     
+          var x=document.getElementById("myHeader")
+        //window.setTimeout("ShowTime();", 5000);  
     } 
+  
 </script>    
      
    
@@ -22,7 +23,7 @@
        <textarea id="txta" cols=10 rows=5>
        </textarea> 
 <form>
-      <input type="button" value="value" onclick=ShowTime(); />
+       <input type="button" value="value" id="myHeader" onclick=ShowTime(); />
 </form>   
         
 </body>     
