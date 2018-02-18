@@ -1,39 +1,22 @@
 <!DOCTYPE html>  
 <html>  
-<head>  
-
- <body>  
+     <head>   
      
  <script type="text/javascript">
-  
-  
-    function ShowTime(x)  
-    {  
-        var dt = new Date(); 
-        var x=document.getElementById("txta");
-        var elem = document.getElementById("myHeader");  
-        document.write(elem);
-        document.write("vernon mickle");
-        document.write(dt.toTimeString());          
-
-        // elem.textContent = dt.toTimeString();          
-        //window.setTimeout("ShowTime();", 5000);  
-    } 
-  
-
- </script>     
-   
-      <h1 id="title">Sending IoT Data</h1>  
-  <p>
-       <textarea id="txta" cols=10 rows=5>
-       </textarea> 
-<form>
-       <input type="button" value="value" id="myHeader" onclick=ShowTime(); />
-</form>   
-
-    
-</body>     
-    
-    
+    <script>
+        function showData()
+    {
+        var fname = $("#txtfirstname").val();
+        $("#lblfirstname").html(fname);
+    }
+  </script>
+  </head>
+<body>
+ 
+  <div>
+       what is your name?
+       <input type ="text" id="txtfirstname" />
+      your name : <label id ="lblfirstname">
+       <input type="button" value="submit data" onclick="showData();" />
  
 </html> 
