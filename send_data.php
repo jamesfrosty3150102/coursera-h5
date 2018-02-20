@@ -13,9 +13,7 @@
        your txtfirstname:  $_GET[txtfirstname]; <br />
        your lblfirstname:  $_GET[lblfirstname]; <br />
     </form>
-<p>這裡不會處理 exit(); </p>
-<?php echo "只會處理這裡"; ?>
-<p>這裡也不會處理 phpinfo(); </p>
+       <?php echo ("第二種方法！"); ?>
        sending iot <a href ="javascript:openPage()">link </a>
     
 
