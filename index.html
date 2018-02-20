@@ -12,6 +12,8 @@
     {
         var fname = $("#txtfirstname").val();
         $("#lblfirstname").html(fname);
+        var tname = $("#txtthgspkapi").val();
+        $("#lblthgspkapi").html(tname);
     }
   </script>
   
@@ -22,10 +24,10 @@
       what is your temp?<br />
        <input type ="text" id="txtfirstname" /><br />
        your name : <label id ="lblfirstname"><br />
-       <input type="button" value="submit data" onclick="showData();"/><br />
       what is your thingspeak api?<br />
-       <input type ="text" id="thgspkapi" /><br />
-       your data sending: <label id ="thgspkapi"><br />
+       <input type ="text" id="txtthgspkapi" /><br />
+       your data sending: <label id ="lblthgspkapi"><br />
+       <input type="button" value="submit data" onclick="showData();"/><br />
   </p>
 
   
