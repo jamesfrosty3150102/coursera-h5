@@ -6,9 +6,6 @@
                 openPage = function() {
                 location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;}
   </script> 
-  <script language="php">
-    echo "hello world";
-  </script>
 
 
 <head>
@@ -21,6 +18,9 @@
        <button onclick="show()">
             lblfirstname
        </button>
+    <?php
+　     echo $_GET[txtfirstname];
+    ?>
        sending iot <a href ="javascript:openPage()">link </a>
     
 
