@@ -13,8 +13,7 @@
         var fname = $("#txttemp").val();
         $("#lbltemp").html(fname);
         var scrt_var; 
-        openPage = function() 
-       {
+        openPage = function() {
         location.href= "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;
        }      
     }
