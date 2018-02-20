@@ -1,11 +1,19 @@
 <html>
 
 <script language="javascript" type="text/javascript">
-var scrt_var = 10; 
-openPage = function() {
-location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;
-}
+    function showData()
+    {
+     var scrt_var = $("#txttemp").val(); 
+     openPage = function() {
+      location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;
+          }
+     }
 </script>
-
- this is a <a href ="javascript:openPage()">Link  </a>
+<div>
+       what is your temp?<br />
+       <input type ="text" id="txttemp" /><br />
+       your name : <label id ="lbltemp"><br />
+       <input type="button" value="submit data" onclick="showData();" /><br />
+       this is a <a href ="javascript:openPage()">Link  </a>
+</div>
 </html>
