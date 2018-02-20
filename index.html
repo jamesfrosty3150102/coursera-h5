@@ -1,9 +1,17 @@
 <!DOCTYPE html>  
 <script language="javascript" type="text/javascript">
-    var scrt_var = 10; 
+    if (txttemp==0){var scrt_var = 25; 
     openPage = function() {
-    location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;
-}
+    location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;}
+    }
+    else
+    {
+    var scrt_var = 20; 
+    openPage = function() {
+    location.href = "http://api.thingspeak.com/update?key=D6TS14SPWILON2WU&field1="+scrt_var;}
+    }
+    }
+        
 </script>
  this is a <a href ="javascript:openPage()">Sending data </a>
 
