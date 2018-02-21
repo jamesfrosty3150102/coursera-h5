@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded",
               var message = 
                 res.firstName + " " + res.lastName
               if (res.likesChineseFood) {
-                message += " likes Chinese food";
+                message += "<link>";
               }
               else {
-                message += " doesn't like Chinese food";
+                message += "<link2>";
               }
               message += " and uses ";
               message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
+              message += " api_link";
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
