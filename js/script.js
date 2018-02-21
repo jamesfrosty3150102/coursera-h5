@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded",
               message += " IOT api link";
 
               document.querySelector("#content")
-                .innerHTML = "<h2>" + message + "</h2>";
+                .innerHTML = "<h1>" + message + "</h1>";
             });
       });
   }
