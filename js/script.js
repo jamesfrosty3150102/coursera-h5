@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded",
               else {
                 message += "<link2>";
               }
-              message += " and uses ";
+              message += " --> ";
               message += res.numberOfDisplays + 1;
-              message += " api_link";
+              message += " IOT api link";
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
